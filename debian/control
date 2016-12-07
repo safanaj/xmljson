@@ -1,0 +1,58 @@
+Source: xmljson
+Maintainer: Marco Bardelli <bardelli.marco@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9),
+ python3-setuptools, python3-all
+Standards-Version: 3.9.6
+Homepage: https://github.com/sanand0/xmljson
+
+Package: python-xmljson
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Converts XML into JSON/Python dicts/arrays and vice-versa.
+ ===============================
+ xmljson
+ ===============================
+ .
+ .. image:: https://img.shields.io/travis/sanand0/xmljson.svg
+         :target: https://travis-ci.org/sanand0/xmljson
+ .
+ .. image:: https://img.shields.io/pypi/v/xmljson.svg
+         :target: https://pypi.python.org/pypi/xmljson
+ .
+ .
+ xmljson converts XML into Python dictionary structures (trees, like in JSON) and vice-versa.
+ .
+ About
+ -----
+ .
+ XML can be converted to a data structure (such as JSON) and back. For example::
+ .
+     <employees>
+         <person>
+
+Package: python3-xmljson
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Converts XML into JSON/Python dicts/arrays and vice-versa.
+ ===============================
+ xmljson
+ ===============================
+ .
+ .. image:: https://img.shields.io/travis/sanand0/xmljson.svg
+         :target: https://travis-ci.org/sanand0/xmljson
+ .
+ .. image:: https://img.shields.io/pypi/v/xmljson.svg
+         :target: https://pypi.python.org/pypi/xmljson
+ .
+ .
+ xmljson converts XML into Python dictionary structures (trees, like in JSON) and vice-versa.
+ .
+ About
+ -----
+ .
+ XML can be converted to a data structure (such as JSON) and back. For example::
+ .
+     <employees>
+         <person>
